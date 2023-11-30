@@ -8,11 +8,14 @@ public class App {
     }
 
     public static String method1_1() {
-        return "method1_1";
+        var methodName = "method1_1";
+        return methodName;
     }
 
     public static String method2() {
         var methodName = "method2";
+        var result = methodName + " - result";
+        System.out.println(result);
         return methodName;
     }
 
