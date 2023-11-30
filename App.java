@@ -7,8 +7,13 @@ public class App {
         return "method1";
     }
 
+    public static String method1_1() {
+        return "method1_1";
+    }
+
     public static String method2() {
-        return "method2";
+        var methodName = "method2";
+        return methodName;
     }
 
     public static String method3() {
